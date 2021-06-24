@@ -6,4 +6,6 @@ On Windows, you can do this from the Microsoft Store or by pressing Windows+R th
 
 Make sure gosumemory is up and running.
 
-Download this repository anywhere on your computer and run `launch.bat`.
+Download this repository anywhere on your computer and run `run.bat`.
+
+Indicator size and position can be configured at the top of the `main.py` file.
