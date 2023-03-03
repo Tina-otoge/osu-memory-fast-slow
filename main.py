@@ -2,17 +2,23 @@ import time
 import requests
 import tkinter as tk
 
+# You can edit variables here:
+
 GOSU_URL = 'http://127.0.0.1:24050/json'
 TRESHOLD = 18
 FONT_SIZE = 24
 FONT_NAME = 'Segoe UI'
+OFFSET_X = 470
+OFFSET_Y = 480
+
+# Do not edit anything below this line
 
 height = FONT_SIZE * 2
 width = int(FONT_SIZE * 4)
 root = tk.Tk()
 root.iconify()
 window = tk.Toplevel(root)
-window.geometry(f'{width}x{height}+470+480')
+window.geometry(f'{width}x{height}+{OFFSET_X}+{OFFSET_Y}')
 window.attributes('-topmost', True)
 window.wm_attributes('-transparentcolor', 'white')
 window.overrideredirect(1)
